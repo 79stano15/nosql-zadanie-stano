@@ -1,6 +1,6 @@
 # nosql-zadanie-stano
 
-Projekt na testovanie 4 uloh z NoSQL (MongoDB).
+Projekt z NoSQL (MongoDB).
 
 ## Príprava prostredia
 
@@ -13,7 +13,7 @@ Maven potrebuje `JAVA_HOME` aby ukazoval na JDK (nielen JRE).
 setx JAVA_HOME "C:\Program Files\Java\jdk-22"
 ```
 
-Otvri **nový terminal** a overuj:
+Otvor **nový terminal** a over:
 ```powershell
 echo $env:JAVA_HOME
 ```
@@ -27,11 +27,11 @@ cd c:\Users\stani\Downloads\nosql-zadanie-stano\nosql-zadanie-stano
 .\mvnw.cmd clean install
 ```
 
-To spakovanie MongoDB modul a všetky závislosti. Maven wrapper (`mvnw.cmd`) sa automaticky stiahne.
+To stiahne MongoDB modul a všetky závislosti. Maven wrapper (`mvnw.cmd`) sa automaticky stiahne.
 
 ## Spustenie uloh - Interaktívny režim (Najjednoduchšie!)
 
-Odporúčaný a najjednoduší spôsob je **interaktívny režim**, kde si v konzole vyberiš číslo úlohy a zadáš parametre.
+Odporúčaný a najjednoduší spôsob je **interaktívny režim**, kde si v konzole vyberiete číslo úlohy a zadáte parametre.
 
 ### Prvý raz (s build):
 
